@@ -4,14 +4,12 @@ import oracledb
 
 
 def escapar(valor) -> str:
-    """Escapa aspas simples para uso em SQL montado por concatenação."""
     return str(valor).replace("'", "''")
 
 
 class OracleQueries:
     """Módulo de conexão com o Oracle.
 
-    Credenciais vêm de variáveis de ambiente (não deixe senha no código):
         ORACLE_USER, ORACLE_PASSWORD e ORACLE_DSN (padrão: localhost:1521/XEPDB1)
     """
 
