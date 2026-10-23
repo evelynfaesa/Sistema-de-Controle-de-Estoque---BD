@@ -32,17 +32,17 @@ class OracleQueries:
             self.conn.close()
 
     def query(self, sql: str) -> list:
-        """Executa um SELECT e devolve uma lista de dicionários (chaves em minúsculo)."""
+       
         self.cursor.execute(sql)
         colunas = [c[0].lower() for c in self.cursor.description]
         return [dict(zip(colunas, linha)) for linha in self.cursor.fetchall()]
 
     def write(self, sql: str):
-        """Executa um INSERT, UPDATE ou DELETE e confirma (commit)."""
+      
         self.write_many([sql])
 
     def write_many(self, comandos: list):
-        """Executa vários comandos na mesma transação: ou todos funcionam, ou nenhum."""
+       
         try:
             for comando in comandos:
                 self.cursor.execute(comando)
