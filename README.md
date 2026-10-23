@@ -11,9 +11,9 @@ fornecedores e compras, e relatórios de estoque baixo e quantidade comprada.
 
 | Nome | GitHub |
 |---|---|
-| Evelyn Constantino Bandeira | @evelynfaesa |
-| Graciellen Reis Fagundes | @graciellyfagundes |
-| Micaellen Reis Fagundes | @micafagundes |
+| Evelyn Constantino Bandeira | evelynfaesa |
+| Graciellen Reis Fagundes | graciellyfagundess |
+| Micaellen Reis Fagundes | micafagundesfaesa |
 
 
 
