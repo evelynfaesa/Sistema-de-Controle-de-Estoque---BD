@@ -1,0 +1,7 @@
+-- Listagem usada antes de remover/atualizar compras
+SELECT COM.ID_COMPRA                          AS CODIGO
+     , TO_CHAR(COM.DATA_COMPRA, 'DD/MM/YYYY') AS DATA
+     , FORN.RAZAO_SOCIAL                      AS FORNECEDOR
+  FROM COMPRAS COM
+ INNER JOIN FORNECEDORES FORN ON COM.ID_FORNECEDOR = FORN.ID_FORNECEDOR
+ ORDER BY COM.ID_COMPRA

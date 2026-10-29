@@ -1,0 +1,8 @@
+-- Listagem usada antes de remover/atualizar fornecedores
+SELECT FORN.ID_FORNECEDOR AS CODIGO
+     , FORN.RAZAO_SOCIAL  AS RAZAO_SOCIAL
+     , FORN.CNPJ          AS CNPJ
+     , FORN.TELEFONE      AS TELEFONE
+     , FORN.EMAIL         AS EMAIL
+  FROM FORNECEDORES FORN
+ ORDER BY FORN.RAZAO_SOCIAL
