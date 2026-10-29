@@ -56,4 +56,18 @@ Cada integrante adiciona abaixo os prompts que utilizou, seguindo o mesmo modelo
 
 - **O que o grupo fez com a resposta:** conferiu o diagrama contra o edital e o tema.
 
+- 
+---
+
+## 5. Classes model e controllers de fornecedores e produtos
+
+- **Integrante:** Micaellen Reis Fagundes
+- **Fonte:** Claude (Anthropic), usado como apoio
+- **Data:** 23/10/2026
+- **Prompt (resumo):** pedido de apoio para estruturar as classes model e os controllers de
+  fornecedores e produtos, seguindo o modelo relacional do grupo e o edital.
+- **O que fiz com a resposta:** revisei o código com base no material da disciplina, conferi
+  os itens 6.b, 6.c e 6.d do edital (incluindo a verificação de chave estrangeira na remoção),
+  testei as operações de fornecedores e produtos na VM e corrigi o que foi necessário.
+
 
