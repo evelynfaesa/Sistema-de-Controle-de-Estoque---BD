@@ -45,7 +45,7 @@ Cada integrante adiciona abaixo os prompts que utilizou, seguindo o mesmo modelo
 - **O que o grupo fez com a resposta:** usou como ponto de partida e simplificou na etapa seguinte.
 
 - 
-## 4. ()
+## 4. (Conferência do diagrama e do tema)
 
 - **Integrante:** Evelyn Constantino
 - **Fonte:** Claude IA
