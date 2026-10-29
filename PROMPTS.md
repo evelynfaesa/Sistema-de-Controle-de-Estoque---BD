@@ -33,7 +33,7 @@ Cada integrante adiciona abaixo os prompts que utilizou, seguindo o mesmo modelo
 
 ---
 
-## 3. (próximo integrante)
+## 3. (Modelo Relacional Inicial)
 
 - **Integrante:** Evelyn Constantino
 - **Fonte:** Claude IA
@@ -43,4 +43,17 @@ Cada integrante adiciona abaixo os prompts que utilizou, seguindo o mesmo modelo
 - **O que a IA gerou:** modelo com 6 tabelas (fornecedor, categoria, produto, produto_fornecedor, compra e item_compra), com atributos, tipos, chaves, relacionamentos, consultas de relatório e regras de integridade.Explicando o que é cada atributo, chave e funcionalidade.
 
 - **O que o grupo fez com a resposta:** usou como ponto de partida e simplificou na etapa seguinte.
+
+- 
+## 4. ()
+
+- **Integrante:** Evelyn Constantino
+- **Fonte:** Claude IA
+- **Data:** 23/10/2026
+- **Prompt (resumo):** Com base no diagrama em que criamos conforme as orientações do professor, está tudo nos conformes? 
+
+- **O que a IA gerou:** confirmou que o diagrama cumpre o item 3 do edital e que o modelo cobre o tema (produtos, fornecedores, estoque baixo e quantidade comprada). Sugeriu, como opção, uma FK id_fornecedor em produtos.
+
+- **O que o grupo fez com a resposta:** conferiu o diagrama contra o edital e o tema.
+
 
