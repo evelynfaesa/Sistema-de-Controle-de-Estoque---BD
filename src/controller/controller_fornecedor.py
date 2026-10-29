@@ -86,7 +86,7 @@ class Controller_Fornecedor:
             print(fornecedor.to_string())
             if not confirmar("Deseja realmente remover este fornecedor?"):
                 print("Remoção cancelada.")
-                return False
+                return "cancelado"   # volta ao menu principal (edital 6.c.5)
 
             comandos = []
 

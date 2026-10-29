@@ -108,7 +108,7 @@ class Controller_Produto:
             print(produto.to_string())
             if not confirmar("Deseja realmente remover este produto?"):
                 print("Remoção cancelada.")
-                return False
+                return "cancelado"   # volta ao menu principal (edital 6.c.5)
 
             comandos = []
 
