@@ -35,9 +35,12 @@ Cada integrante adiciona abaixo os prompts que utilizou, seguindo o mesmo modelo
 
 ## 3. (próximo integrante)
 
-- **Integrante:**
-- **Fonte:**
-- **Data:**
-- **Prompt (resumo):**
-- **O que a IA gerou:**
-- **O que o grupo fez com a resposta:**
+- **Integrante:** Evelyn Constantino
+- **Fonte:** Claude IA
+- **Data:** 23/10/2026
+- **Prompt (resumo):** Sistema de Controle de Estoque | Controle de produtos e fornecedores, com relatórios de estoque baixo e quantidade comprada. Nos ajude a desenvolver explicando detalhadamente qual será a melhor forma para criar um  diagrama relacional especificando os atributos, chaves, obrigatoriedades e relacionamentos
+
+- **O que a IA gerou:** modelo com 6 tabelas (fornecedor, categoria, produto, produto_fornecedor, compra e item_compra), com atributos, tipos, chaves, relacionamentos, consultas de relatório e regras de integridade.Explicando o que é cada atributo, chave e funcionalidade.
+
+- **O que o grupo fez com a resposta:** usou como ponto de partida e simplificou na etapa seguinte.
+
