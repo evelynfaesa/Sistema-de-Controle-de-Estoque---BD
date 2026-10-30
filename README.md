@@ -112,7 +112,7 @@ erDiagram
 
 ```bash
 git clone URL_DO_REPOSITORIO
-cd NOME_DO_REPOSITORIO
+cd  Sistema-de-Controle-de-Estoque---BD.
 ```
 
 **2. Criar o ambiente virtual e instalar a dependência**
