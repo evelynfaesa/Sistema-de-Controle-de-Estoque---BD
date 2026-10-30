@@ -143,9 +143,9 @@ Para recriar tudo do zero, descomente os comandos `DROP` no início do script e 
 A senha não fica no código. Defina as credenciais por variáveis de ambiente:
 
 ```bash
-export ORACLE_USER=seu_usuario
-export ORACLE_PASSWORD=sua_senha
-export ORACLE_DSN=host:porta/servico    # opcional; padrão: localhost:1521/XEPDB1
+export ORACLE_USER=system
+export ORACLE_PASSWORD=oracle
+export ORACLE_DSN=host:localhost:1521/XEPDB1
 ```
 
 **5. Executar o programa**
